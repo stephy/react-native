@@ -32,7 +32,7 @@
   //
   // To run on device, change `localhost` to the IP address of your computer, and make sure your computer and
   // iOS device are on the same Wi-Fi network.
-  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/Examples/Movies/MoviesApp.includeRequire.runModule.bundle"];
+  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/Examples/Movies/KalendarApp.includeRequire.runModule.bundle"];
 
   // OPTION 2
   // Load from pre-bundled file on disk. To re-generate the static bundle, run
@@ -43,7 +43,7 @@
   // jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"MoviesApp"
+                                                      moduleName:@"KalendarApp"
                                                    launchOptions:launchOptions];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

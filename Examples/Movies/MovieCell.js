@@ -76,7 +76,7 @@ var styles = StyleSheet.create({
   },
   row: {
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: 'rgba(0,0,0,.15)',
     flexDirection: 'row',
     padding: 5,
   },
